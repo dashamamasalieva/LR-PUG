@@ -1,0 +1,36 @@
+- var docName = "Акции"
+
+doctype html
+html(lang="ru")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title= docName
+        link(rel="stylesheet", href="styles/style.css")
+    body         
+        include modules/header
+        .akcee
+            h2 Акции
+            table 
+                tr 
+                    th Название 
+                    th Дата
+                    th Скидка
+                tr 
+                    td Специальная цена на "Мама Тама"
+                    td(rowspan="2") до 4 июня
+                    td Специальная цена на продукцию для новорожденных
+                tr 
+                    td Скидка до 50% на средства женской гигиены SECRETDAY 
+                     
+                    td  -50% на средства женской гигиены SECRETDAY 
+                tr 
+                    td Специальные цены на средства Zdravoderm при различных проблемах кожи
+                    td(rowspan="2") до 5 июня
+                    td Специальная цена на продукцию компании ZDRAVODERM 
+                tr 
+                    td Новинка от компании "БИОНОР-ФАРМ" - НИКОТИНОВАЯ КИСЛОТА ДЛЯ ВОЛОС 5МЛ N10!
+                     
+                    td Скидка -10% на никотиновую кислоту для волос 5МЛ N10 производства компании "БИОНОР-ФАРМ"
+        include modules/footer

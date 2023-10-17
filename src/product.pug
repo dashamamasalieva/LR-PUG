@@ -1,0 +1,31 @@
+- var docName = "Продукт"
+
+doctype html
+html(lang="ru")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title= docName
+        link(rel="stylesheet", href="styles/style.css")
+    body         
+        include modules/header
+        .product 
+            h2 Самые популярные товары
+            .container
+                .elem
+                    img(src="img/Снимок1.PNG", alt="")
+                    p 
+                        b Гастал 30 шт. таблетки
+                    button Купить
+                .elem 
+                    img(src="img/Снимок2.PNG", alt="")
+                    p 
+                        b Голдлайн 158,5 мг 10 шт. капсулы
+                    button Купить
+                .elem
+                    img(src="img/Снимок3.PNG", alt="")
+                    p 
+                        b Детралекс 1 гр 18 шт. таблетки
+                    button Купить
+        include modules/footer 

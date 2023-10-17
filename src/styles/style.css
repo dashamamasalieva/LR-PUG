@@ -1,0 +1,107 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+}
+
+.wrapper {
+  width: 1040px;
+  margin: 0 auto;
+}
+
+header {
+  height: 62px;
+  background-color: #008793;
+  color: white;
+}
+header .main-menu {
+  text-align: center;
+}
+header .main-menu ul li {
+  display: inline-block;
+  margin-left: 33px;
+}
+header .main-menu ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.banner {
+  background-image: url("../img/Снимок.PNG");
+  background-color: #008793;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 300px;
+}
+
+.about {
+  margin: 18px;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+.about li {
+  margin-top: 5px;
+  font-size: 8pt;
+}
+.about li p {
+  font-size: 10pt;
+}
+
+h2 {
+  text-align: center;
+  font-size: 15pt;
+}
+
+table {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  width: 1000px;
+  border-collapse: collapse;
+}
+table td {
+  border: 1px solid #a09082;
+}
+table th {
+  border: 1px solid #a09082;
+}
+
+.product .container {
+  width: 100%;
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row: 250px;
+  margin-bottom: 30px;
+}
+.product .container .elem {
+  border: 1px solid rgb(192, 183, 158);
+  height: 280px;
+}
+.product .container .elem button {
+  margin: 0 auto;
+  display: block;
+  border-radius: 50px;
+  height: 25px;
+  width: 75%;
+  background-color: #06646d;
+  color: white;
+}
+.product .container .elem p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.footer {
+  background-color: #008793;
+  height: 100px;
+}
+.footer p {
+  padding-top: 30px;
+  color: white;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
